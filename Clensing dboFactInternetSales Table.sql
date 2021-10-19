@@ -1,4 +1,4 @@
---Clensing Of The dbo.FactInternetSales Table--
+--Cleansing Of The dbo.FactInternetSales Table--
 
 /*
 In this SQL script the information that is being extracted pertains to actual internet sales 
