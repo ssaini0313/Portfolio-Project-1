@@ -1,8 +1,8 @@
---Clensing The dbo.DIMDATE Table--
+--Cleansing The dbo.DIMDATE Table--
 
 /*
 In this SQL script the information that is being extracted deals calendar information
-like month, date , year, etc... The information in this clensed table will filter the 
+like month, date , year, etc... The information in this cleansed table will filter the 
 sales data in Power BI by month and year allowing one to see how the sales data changes
 over time.
 */
