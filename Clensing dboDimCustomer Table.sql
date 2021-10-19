@@ -1,7 +1,7 @@
---Clensing Of The dbo.DimCustomer Table--
+--Cleansing Of The dbo.DimCustomer Table--
 
 /*
-In this SQL script the dbo.DimCustomer table is being clensed in order to visualize the 
+In this SQL script the dbo.DimCustomer table is being cleansed in order to visualize the 
 data it contains in the Power BI application. The table will contain important data about
 the customer and later will be used to help filter sales data based on customers in Power
 BI. In additon, the dbo.DimCustomer table will be joined with the dbo.DimGeography in order
@@ -11,7 +11,7 @@ to obtain information about the location of the city where the customer lives.
 --Calling the correct database to use the specific tables needed for the analysis.
 USE AdventureWorksDW2019;
 
---Start of the table clensing. 
+--Start of the table cleansing. 
 SELECT
 	c.CustomerKey,
 	c.FirstName,
