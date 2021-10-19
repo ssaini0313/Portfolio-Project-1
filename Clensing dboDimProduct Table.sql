@@ -1,19 +1,19 @@
---Clensing dbo.DimProduct Table--
+--Cleansing dbo.DimProduct Table--
 
 /*
-In this SQL script the information that is being clensed deals with products. With 
-this inforamtion loaded into Power BI, the sales data can be filtered based upon 
-products. In addition, three tables will be joined during the clensing process.The 
+In this SQL script the information that is being cleansed deals with products. With 
+this information loaded into Power BI, the sales data can be filtered based upon 
+products. In addition, three tables will be joined during the cleansing process.The 
 three tables are dbp.DimProduct Table, dbo.DimProductSubcategory table, and the 
-dbo.DimProductCategory table. The joining of the tables will allow for the extraction
-information about categories and subcategories that the products are grouped. This will
+dbo.DimProductCategory table. The joining of the tables will allow for the extraction of
+information about categories and subcategories that the products are grouped in. This will
 allow for power filteration parameters in Power BI.
 */
 
 --Call the correct database in order to utilize tables for analysis.
 USE AdventureWorksDW2019;
 
---Start of the query for clensing the dbo.DimProduct Table.
+--Start of the query for cleansing the dbo.DimProduct Table.
 SELECT
 	p.ProductKey,
 	p.EnglishProductName AS 'Product Name',
